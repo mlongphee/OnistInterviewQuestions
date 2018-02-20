@@ -47,4 +47,4 @@ arrangeArray.arrangeDArray = function arrangeArray(arrayOfStrings){
 
   }
 
-  module.exports = ;
+  module.exports = arrangeArray;
