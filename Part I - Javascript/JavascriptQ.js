@@ -1,6 +1,6 @@
 /*
  * @param {strings[]} arrayOfStrings
- * @throws throw an error if array element is non string
+ * @throws throw an error if array element is non string or not a string array
  * @return {strings[]}
   * */
   function arrangeArray(arrayOfStrings){
