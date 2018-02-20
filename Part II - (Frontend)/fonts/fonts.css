@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "ProximaNova-Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local('ProximaNova-Medium'), url('ProximaNova-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: "ProximaNova-Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local('ProximaNova-Light'), url('ProximaNova-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local('ProximaNova-Regular'), url('ProximaNova-Regular.otf') format('opentype');
+}

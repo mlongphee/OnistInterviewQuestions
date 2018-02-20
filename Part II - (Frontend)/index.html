@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+			<link rel="stylesheet" href="styles.css" charset="utf-8" />
+			<link rel="stylesheet" href="fonts/fonts.css" charset="utf-8" />
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="reducers.js"></script>
+			<script src="services/numberToWords.js"></script>
+		</head>
+		<body>
+			<div class="container">
+				<p class="title-step">Children</p>
+				<div class="firstQuestion">
+					<span class="text-question">Do you have any children?</span>
+					<label for="chkYes" class="text-label-radio-button">
+						<input type="radio" id="chkYes" class="radio-button" name="chkPassPort" onclick="ShowHideDiv()" />Yes
+					</label>
+					<label for="chkNo" class="text-label-radio-button">
+						<input type="radio" id="chkNo" name="chkPassPort" onclick="ShowHideDiv()" />No
+					</label>
+				</div>
+				<div class="module-background" id="child_module">
+					<p class="module-title">CHILD</p>
+					<hr class="module-divider-horizontal" />
+					<div class="first_lastName">
+						<form name="form">
+							<div class="firstname_fieldBlock">
+								<p class="text-label">First Name*</p>
+								<input type="text" name="firstname" class="field" id="firstName">
+								</div>
+								<div class="lastname_fieldBlock">
+									<p class="text-label">Last Name*</p>
+									<input type="text" name="lastname" class="field"  id="lastName">
+									</div>
+								</form>
+							</div>
+							<div class="buttons" id="btns">
+								<button type="button" class="Rectangle" onclick="CancelButton()">
+									<div class="CANCEL">Cancel</div>
+								</button>
+								<button type="button" class="button-background" onclick="ShowHideNewQuestion();">
+									<div class="text-label2">Save</div>
+								</button>
+							</div>
+						</div>
+						<div class="module-background2" id="children_module">
+							<p class="module-title">CHILDREN</p>
+							<hr class="module-divider-horizontal" />
+							<section class="firstChild">
+								<div class="remove_first" id="one">
+									<p class="section-title">First Child</p>
+									<p class="remove-label" id="remove">Remove</p>
+								</div>
+								<div id="two">
+									<form name="child1">
+										<div class="firstname_fieldBlock">
+											<p class="text-label">First Name*</p>
+											<input type="text" name="firstname" class="field" id="firstName1">
+											</div>
+											<div class="lastname_fieldBlock">
+												<p class="text-label">Last Name*</p>
+												<input type="text" name="lastname" class="field" id="lastName1">
+												</div>
+											</form>
+										</div>
+									</section>
+									<div class="buttons" id="btns2">
+										<button type="button" class="Rectangle" onclick="CancelButton2()" id="cancel2">
+											<div class="CANCEL">Cancel</div>
+										</button>
+										<button type="button" class="button-background" id="save2">
+											<div class="text-label2">Save</div>
+										</button>
+									</div>
+								</div>
+								<div class="secondQuestion" id="secondQuestion">
+									<span class="text-question">Do you have any other children?</span>
+									<label for="chkYes2" class="text-label-radio-button">
+										<input type="radio" id="chkYes2" class="radio-button" name="chkPassPort2" onclick="addAdditionChild()" />Yes
+									</label>
+									<label for="chkNo2" class="text-label-radio-button">
+										<input type="radio" id="chkNo2" name="chkPassPort2" onclick="" />No
+									</label>
+								</div>
+							</body>
+						</html>

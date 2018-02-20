@@ -1,0 +1,366 @@
+body{
+  margin: 0px;
+}
+
+#container {
+  top: 30px;
+  left: 150px;
+  position:absolute;
+}
+
+#child_module{
+  position: relative;
+  margin-top: 19px;
+  display:none;
+}
+
+#childrenContainer{
+  left: 151px;
+  position:relative;
+  text-align: right;
+  float: left;
+  padding: 0px;
+}
+
+#remove{
+  text-align: right;
+  position:relative;
+  margin: 0px;
+  margin-left:18px;
+}
+
+.container{
+  margin-left: 150px;
+  margin-top: 30px;
+  display: inline-block;
+}
+/*div {
+    outline: 1px solid red;
+}*/
+
+.firstQuestion{
+  display: inline-block;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+
+}
+#one {
+    width: 15%;
+    float: left;
+    display: inline-block;
+}
+#two {
+    display: inline-block;
+   }
+
+form{
+  height: auto;
+  display: block;
+}
+
+.firstname_fieldBlock
+    {
+    display:block;
+    float: left;
+    position: relative;
+    }
+
+.lastname_fieldBlock
+   {
+    display:block;
+    float: left;
+    position: relative;
+    margin-left: 40px;
+   }
+
+.buttons{
+  display: inline-block;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+
+.title-step {
+  width: 64px;
+  height: 20px;
+  color: #616161;
+  font-family: "ProximaNova-Medium";
+  font-size: 17px;
+  text-align: left;
+  @apply --Text-Style;
+  margin-bottom: 21px;
+  margin-top: 0px;
+}
+
+.text-question {
+  width: 163px;
+  height: 17px;
+  font-family: "ProximaNova-Regular";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #616161;
+  margin-right: 10px;
+}
+
+.radio-button {
+  width: 14px;
+  height: 14px;
+  background-color: #616161;
+}
+
+.text-label-radio-button {
+  width: 25px;
+  height: 18px;
+  font-family: "ProximaNova-Medium";
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4e4e4e;
+  margin-right: 10px;
+}
+
+.module-background {
+  width: 980px;
+  height: 182px;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+  border: solid 1px #e0e0e0;
+  margin-top: 19px;
+  position:relative;
+}
+
+.module-title {
+  height: 18px;
+  font-family: "ProximaNova-Medium";
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #616161;
+  margin: 11px 0px 0px 20px;
+
+}
+
+.first_lastName{
+  margin-left: 20px;
+  display: inline-block;
+
+}
+
+.module-divider-horizontal {
+  width: 976px;
+  height: 2px;
+  border: solid 1px #f5f5f5;
+  margin-top: 11px;
+  margin-bottom: 10px;
+  border: 0px;
+
+}
+
+.text-label {
+  width: 65px;
+  height: 16px;
+  font-family: "ProximaNova-Light";
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #616161;
+  margin-top: 0px;
+}
+
+.field {
+  width: 220px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #e0e0e0;
+}
+
+.Rectangle {
+  width: 140px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+.Rectangle:hover {background-color: #d1d1d1}
+
+.CANCEL {
+  width: 46px;
+  height: 14px;
+  font-family: "ProximaNova-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #616161;
+
+  display: inline-block;
+
+}
+
+.button-background {
+  width: 140px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #5b779e;
+  margin-left: 20px;
+
+}
+
+.button-background:hover {background-color: #485d7c}
+
+.text-label2 {
+  width: 30px;
+  height: 14px;
+  font-family: "ProximaNova-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #eeeeee;
+
+  display: inline-block;
+}
+
+.secondQuestion{
+  position:relative;
+  margin-top: 21px;
+  display: none;
+}
+
+input[type="text"]{
+    font-family: "ProximaNova-Medium";
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #616161;
+    text-indent: 10px;
+}
+
+.module-background3 {
+  width: 980px;
+  height: 132px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #e0e0e0;
+}
+.module-background4 {
+  width: 980px;
+  height: 95px;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+
+.module-background2 {
+  width: 980px;
+  height: auto;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #e0e0e0;
+  margin-top: 19px;
+  position: relative;
+  display: none;
+}
+
+.field-content {
+  width: 32px;
+  height: 16px;
+  font-family: "ProximaNova-Medium";
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #616161;
+}
+
+.section-title {
+  height: 18px;
+  font-family: "ProximaNova-Medium";
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #616161;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+
+.remove-label {
+  height: 16px;
+  font-family: "ProximaNova-Regular";
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #939ea3;
+}
+
+.remove-label:hover{opacity: 0.7;}
+
+.section-background-highlighted {
+  width: 978px;
+  height: 145px;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+  bottom: 0;
+}
+
+.firstChild{
+  margin-left: 151px;
+  padding: 0px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.additionalChild{
+  margin-top: 15px;
+  margin-left: 151px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.remove_first{
+  margin-right: 40px;
+  display: inline-block;
+}
