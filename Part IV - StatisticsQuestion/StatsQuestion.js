@@ -1,4 +1,4 @@
-
+/*Note: Does not completely work for all cases*/
 function cerealBoxProbability(N, M){
   var result,nPr,allComb;
 if(M < 0 || N > 0){
